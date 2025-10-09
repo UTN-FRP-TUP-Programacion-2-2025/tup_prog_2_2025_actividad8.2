@@ -36,7 +36,7 @@ public class Multa : IComparable, IExportable
 
     public bool Importar(string data, IExportador exportador)
     {
-        return exportador.Importar(this, data);
+        return exportador.Importar(data,this);
     }
 
     public string Exportar(IExportador exportador)

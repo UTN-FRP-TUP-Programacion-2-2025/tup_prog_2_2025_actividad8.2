@@ -11,7 +11,7 @@ public class XMLExportador : IExportador
         return $"<Multa><Patente>{m.Patente}</Patente><Vencimiento>{m.Vencimiento:dd/MM/yyyy}</Vencimiento><Importar>{m.Importar:f2}</Importar></Multa>"; 
     }
 
-    public bool Importar(Multa m, string data)
+    public bool Importar(string data, Multa m)
     {
         Match match=Regex.Match(data, @"<Patente>([a-z]{3}\d{3})</Patente><Vencimiento>(\d{2}/\d{2}/\d{4})</Vencimiento><Importe>(\d+,\d*)</Importe>",RegexOptions.IgnoreCase);
 

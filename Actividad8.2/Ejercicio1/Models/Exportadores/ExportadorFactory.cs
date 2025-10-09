@@ -6,7 +6,6 @@ public class ExportadorFactory
 {
     public IExportador GetInstance(int tipo) 
     {
-
         IExportador exportador = null;
         switch (tipo)
         {
@@ -17,5 +16,4 @@ public class ExportadorFactory
         }
         return exportador;
     }
-
 }
