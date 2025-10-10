@@ -1,4 +1,4 @@
-﻿namespace Ejercicio1_.Models;
+﻿namespace Ejercicio1.Models.Exportares;
 
 public interface IExportador
 {

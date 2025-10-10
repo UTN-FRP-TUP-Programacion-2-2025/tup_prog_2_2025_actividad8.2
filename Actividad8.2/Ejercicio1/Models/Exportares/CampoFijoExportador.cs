@@ -1,4 +1,4 @@
-﻿namespace Ejercicio1.Models.Exportadores;
+﻿namespace Ejercicio1.Models.Exportares;
 
 public class CampoFijoExportador : IExportador
 {
@@ -7,7 +7,7 @@ public class CampoFijoExportador : IExportador
         throw new NotImplementedException();
     }
 
-    public bool Importar(Multa m, string data)
+    public bool Importar(string data, Multa m)
     {
         throw new NotImplementedException();
     }
