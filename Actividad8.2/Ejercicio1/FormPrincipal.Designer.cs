@@ -82,7 +82,7 @@
             // 
             // btnActualizar
             // 
-            btnActualizar.Location = new Point(464, 211);
+            btnActualizar.Location = new Point(464, 163);
             btnActualizar.Margin = new Padding(4);
             btnActualizar.Name = "btnActualizar";
             btnActualizar.Size = new Size(96, 48);
@@ -98,7 +98,7 @@
             lstVer.Location = new Point(23, 151);
             lstVer.Margin = new Padding(4);
             lstVer.Name = "lstVer";
-            lstVer.Size = new Size(433, 256);
+            lstVer.Size = new Size(433, 193);
             lstVer.TabIndex = 7;
             lstVer.SelectedValueChanged += lstVer_SelectedValueChanged;
             // 
@@ -134,7 +134,7 @@
             // 
             // btnImporte
             // 
-            btnImporte.Location = new Point(464, 267);
+            btnImporte.Location = new Point(464, 219);
             btnImporte.Margin = new Padding(4);
             btnImporte.Name = "btnImporte";
             btnImporte.Size = new Size(96, 53);
@@ -145,7 +145,7 @@
             // 
             // btnExportar
             // 
-            btnExportar.Location = new Point(464, 328);
+            btnExportar.Location = new Point(464, 280);
             btnExportar.Margin = new Padding(4);
             btnExportar.Name = "btnExportar";
             btnExportar.Size = new Size(96, 47);
@@ -161,7 +161,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(580, 411);
+            ClientSize = new Size(580, 353);
             Controls.Add(btnExportar);
             Controls.Add(btnImporte);
             Controls.Add(label3);

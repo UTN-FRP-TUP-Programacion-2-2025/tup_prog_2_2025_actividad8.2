@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace Ejercicio1.Models.Exportares;
+﻿namespace Ejercicio1.Models.Exportares;
 
 public class CSVExportador : IExportador
 {
